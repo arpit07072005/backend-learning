@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node api/server.js"
-  },
+  "start": "node server.js",
+  "vercel-start": "node server.js"
+},
   "author": "arpit pandey",
   "license": "ISC",
   "description": "",
